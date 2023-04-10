@@ -5,7 +5,7 @@ const { dbConn } = require("./db_config/dbConnection");
 const dotenv = require("dotenv").config();
 
 //calling database connection
-//dbConn();
+dbConn();
 
 const app = express();
 
