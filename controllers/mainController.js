@@ -50,11 +50,20 @@ module.exports = {
 
   deleteDetails: asyncHandler(async (req, res) => {
     const details = await halldetails.findById(req.params.id);
-    if(!details){
+    if (!details) {
       res.status(404);
       throw new Error("Details Not Found");
     }
     await halldetails.deleteOne();
     res.status(200).json(details);
+  }),
+
+  newInfo: asyncHandler(async (req, res) => {
+    res.status(200).json({ 
+      id: "345",
+      name: "Boateng Patrick",
+      department: "ITE",
+      level: "300",
+      message: "Infomation Succesfully Fetched" });
   }),
 };

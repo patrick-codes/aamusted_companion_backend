@@ -1,0 +1,120 @@
+[
+  {
+    "_id": "e2ce4fa3-2a1c-4d4c-8afc-211bb89973f6",
+    "colId": "history",
+    "containerId": "",
+    "name": "https://localhost/api/users/getinfo",
+    "url": "https://localhost/api/users/getinfo",
+    "method": "GET",
+    "sortNum": 0,
+    "created": "2023-04-10T08:28:09.469Z",
+    "modified": "2023-04-10T08:28:09.469Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "f32e89ce-db6b-4c26-a076-ac697dbd1232",
+    "colId": "history",
+    "containerId": "",
+    "name": "https://localhost:5003/api/users/getinfo",
+    "url": "https://localhost:5003/api/users/getinfo",
+    "method": "GET",
+    "sortNum": 0,
+    "created": "2023-04-10T08:29:19.127Z",
+    "modified": "2023-04-10T08:29:19.127Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "6317e3f0-331f-4b45-9e80-ae27abed1645",
+    "colId": "history",
+    "containerId": "",
+    "name": "http://localhost:5003/api/users/getinfo",
+    "url": "http://localhost:5003/api/users/getinfo",
+    "method": "GET",
+    "sortNum": 0,
+    "created": "2023-04-10T08:29:30.482Z",
+    "modified": "2023-04-10T08:29:30.482Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "6cc51222-ad61-4d51-94d2-5bd96c8bffda",
+    "colId": "history",
+    "containerId": "",
+    "name": "http://localhost:5003/api/users/signup",
+    "url": "http://localhost:5003/api/users/signup",
+    "method": "POST",
+    "sortNum": 0,
+    "created": "2023-04-10T08:31:24.535Z",
+    "modified": "2023-04-10T08:31:24.535Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"username\": \"todaysuser\",\n  \"email\": \"metoday@gmail.com\",\n  \"password\": \"metodaypass\"\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "f7042ade-ced7-4d79-9385-0d358c784fbb",
+    "colId": "history",
+    "containerId": "",
+    "name": "http://localhost:5003/api/users/login",
+    "url": "http://localhost:5003/api/users/login",
+    "method": "POST",
+    "sortNum": 0,
+    "created": "2023-04-10T08:32:12.260Z",
+    "modified": "2023-04-10T08:32:12.260Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n \n  \"email\": \"metoday@gmail.com\",\n  \"password\": \"metodaypass\"\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "80a2f794-431e-480e-a7d8-6cb50fcd011d",
+    "colId": "history",
+    "containerId": "",
+    "name": "http://localhost:5003/api/info",
+    "url": "http://localhost:5003/api/info",
+    "method": "GET",
+    "sortNum": 0,
+    "created": "2023-04-10T08:33:18.983Z",
+    "modified": "2023-04-10T08:33:18.983Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n \n  \"email\": \"metoday@gmail.com\",\n  \"password\": \"metodaypass\"\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "7705254c-0d89-43f4-8b30-2f68b8532776",
+    "colId": "history",
+    "containerId": "",
+    "name": "http://localhost:5003/api/",
+    "url": "http://localhost:5003/api/",
+    "method": "POST",
+    "sortNum": 0,
+    "created": "2023-04-10T08:35:10.817Z",
+    "modified": "2023-04-10T08:35:10.817Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n \"name\": \"Mampong Hall II\",\n \"date\": \"october 5\",\n  \"residencetype\": \"male\"\n}",
+      "form": []
+    },
+    "tests": []
+  }
+]
