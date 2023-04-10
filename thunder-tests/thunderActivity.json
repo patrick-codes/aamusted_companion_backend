@@ -135,5 +135,24 @@
       "form": []
     },
     "tests": []
+  },
+  {
+    "_id": "4daf6c9f-bb79-4aa1-813f-3641d84fe214",
+    "colId": "history",
+    "containerId": "",
+    "name": "https://aamusted-companion-backend.onrender.com/api/users/signup",
+    "url": "https://aamusted-companion-backend.onrender.com/api/users/signup",
+    "method": "POST",
+    "sortNum": 0,
+    "created": "2023-04-10T18:33:23.571Z",
+    "modified": "2023-04-10T18:33:23.571Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n\"username\": \"evening user\",\n\"email\": \"eveninguser@gmail.com\",\n\"password\": \"wereef\"\n}",
+      "form": []
+    },
+    "tests": []
   }
 ]

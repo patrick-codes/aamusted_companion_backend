@@ -2,6 +2,7 @@ const asyncHandler = require("express-async-handler");
 const userDetails = require("../models/userModel");
 const bcrypt = require("bcrypt");
 const jwt = require("jsonwebtoken");
+const { request } = require("express");
 
 module.exports = {
   userLogin: asyncHandler(async (req, res) => {
@@ -68,4 +69,9 @@ module.exports = {
   userfInfo: asyncHandler(async (req, res) => {
     res.status(200).send("current user info..");
   }),
+
+  getUsers: asyncHandler(async (req, res)=>{
+    const getusers = await userDetails.find();
+    res.status(200).send(getusers);
+  })
 };
